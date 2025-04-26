@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ilyrian Metal Structure</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #1E2A38;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1576267423428-4de0e88a933e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80') center/cover no-repeat;
+      height: 80vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .section {
+      padding: 4rem 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .section h2 {
+      color: #1E2A38;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    .products, .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 2rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .contact-form {
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      max-width: 600px;
+      margin: auto;
+    }
+    .contact-form input, .contact-form textarea, .contact-form button {
+      width: 100%;
+      margin: 10px 0;
+      padding: 1rem;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+    }
+    .contact-form button {
+      background-color: #1E2A38;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #1E2A38;
+      color: white;
+      margin-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>Ilyrian Metal Structure</strong></div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">Rreth Nesh</a>
+      <a href="#products">Produktet</a>
+      <a href="#services">Sherbimet</a>
+      <a href="#contact">Kontakt</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    Forca e Strukturave Metalike Nis Këtu
+  </section>
+
+  <section class="section" id="about">
+    <h2>Rreth Nesh</h2>
+    <p>"Ilyrian Metal Structure" është lider në prodhimin e strukturave metalike, duke përdorur teknologjinë më të fundit të prerjes me lazer për tuba dhe llamarina. Specializohemi në punime me hekur, inox dhe zinkato, duke garantuar cilësi dhe qëndrueshmëri maksimale në çdo projekt.</p>
+  </section>
+
+  <section class="section" id="products">
+    <h2>Produktet Tona</h2>
+    <div class="products">
+      <div class="card">Struktura Mbajtëse</div>
+      <div class="card">Kapriata</div>
+      <div class="card">Kangjella</div>
+      <div class="card">Shkallë Metalike</div>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <h2>Shërbimet Tona</h2>
+    <div class="services">
+      <div class="card">Prerje me Lazer për Tuba</div>
+      <div class="card">Prerje me Lazer për Llamarina</div>
+      <div class="card">Përpunim Inoxi</div>
+      <div class="card">Punime me Zinkato</div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Kërko Ofertë</h2>
+    <div class="contact-form">
+      <form action="#" method="po…
